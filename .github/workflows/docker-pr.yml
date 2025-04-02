@@ -49,7 +49,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/techarohq/anubis
+          images: ghcr.io/minecon724/anubis
 
       - name: Build and push
         id: build
@@ -58,7 +58,7 @@ jobs:
           npm run container
         env:
           PULL_REQUEST_ID: ${{ github.event.number }}
-          DOCKER_REPO: ghcr.io/techarohq/anubis
+          DOCKER_REPO: ghcr.io/minecon724/anubis
           SLOG_LEVEL: debug
 
       - run: |
