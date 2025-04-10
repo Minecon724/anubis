@@ -1,28 +1,5 @@
-@font-face {
-  font-family: "Geist";
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("./static/geist.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Podkova";
-  font-style: normal;
-  font-weight: 400 800;
-  font-display: swap;
-  src: url("./static/podkova.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Curly";
-  font-style: monospace;
-  font-display: swap;
-  src: url("./static/iosevka-curly.woff2") format("woff2");
-}
-
 main {
-  font-family: Geist, sans-serif;
+  font-family: sans-serif;
   max-width: 50rem;
   padding: 2rem;
   margin: auto;
@@ -41,7 +18,7 @@ pre {
   background-color: #3c3836;
   padding: 1em;
   border: 0;
-  font-family: Iosevka Curly Iaso, monospace;
+  font-family: monospace;
 }
 
 a,
@@ -57,7 +34,7 @@ h3,
 h4,
 h5 {
   margin-bottom: 0.1rem;
-  font-family: Podkova, serif;
+  font-family: sans-serif;
 }
 
 blockquote {
